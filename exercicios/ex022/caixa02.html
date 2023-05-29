@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model02</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        header{
+            color: burlywood;
+            background-color: aquamarine;
+            text-align: center;
+            padding: 3px;
+        }
+       nav{
+        box-shadow: 1px 1px 1px 1px black;
+       }
+       nav > a{
+        text-decoration: none;
+        padding: 30px;
+       }
+       .noti{
+        background-color: blue;
+        color: white;
+        padding: 7px;
+        margin-bottom: 10px;
+       }
+       .ultimas{
+        background-color: blueviolet;
+        color: white;
+        padding: 7px;
+       }
+       footer{
+        background-color: darkgrey;
+        text-align: center;
+       }
+       article > aside{
+        background-color: green;
+        padding: 3px;
+       }
+       div{
+        background-color: black;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+       }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noticias</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section class="noti">
+            <article>
+                <h2>Lula morre ao 57 anos</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat modi exercitationem laudantium sequi dolorem quisquam dolorum eius pariatur, cum ab possimus inventore placeat maiores enim? Dolor non amet magnam hic!</p>
+                <aside>James</aside>
+            </article>
+        </section>
+        <section  class="ultimas">
+            <article>
+                <h2>Bolsonaro assume a presidência</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam repellendus accusantium autem vel, hic quasi quibusdam asperiores quas fugit iste harum ut saepe facilis fuga numquam sed commodi quia doloribus!</p>
+                <aside>Miro</aside>
+            </article>
+        </section>
+    </main>
+    <footer>Desenvolvido pelo vandão</footer>
+    <div>d</div>
+
+</body>
+</html>

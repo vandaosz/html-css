@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+<p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+    <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+</body>
+<h1>Reproduzindo aúdios</h1>
+<p>Vamos aprender a reproduzir aúdios em HTML5.</p>
+<audio src="midias/Nemesis - ALBIS.mp3" controls ></audio><!--tirei o autoplay pra n ficar tocando-->
+
+<p>ou</p>
+<div><audio preload="metadata" controls>
+    <source src="midias/Nemesis - ALBIS.mp3" type="audio/mpeg">
+    <source src="midias/Nemesis - ALBIS.mp3" type="audio/ogg">
+    <source src="midias/Nemesis - ALBIS.mp3" type="audio/wav">
+    <p>Infelizmente seu navegador não pode reproduzir este audio
+        <a href="midias/Nemesis - ALBIS.mp3" download="Nemesis.mp3">Faça aqui o download</a>
+    </p>
+</audio>
+</div>
+</html>

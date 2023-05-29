@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junção de elementos</title>
+</head>
+<body>
+    <h1>Junção de elementos</h1>
+    <h2>Foto flexível</h2>
+    <picture>
+        <source media="(max-width:500px )" srcset="imagens/testee.png" type="image/png">
+        <source media="(max-width:750px )" srcset="imagens/teste.png" type="image/png">
+        <img src="imagens/my photo G.jpeg" alt="imgG">
+    </picture>
+    <h2>Hospedagem de vídeo interna</h2>
+    <video width="310" controls loop>
+        <source src="videos/pexels-daniel-narinian-11471509-1920x1080-25fps.mp4" type="video/mp4">
+        <source src="videos/Pexels-Daniel-Narinian-11471509-1920X1080-25Fps.webm" type="video/webm">
+        <p>Infelizmente seu navegador não consegue reproduzir esse video,<a href="videos/pexels-daniel-narinian-11471509-1920x1080-25fps.mp4" download="video.mp4">você pode baixa-lo</a></p>
+    </video>
+    <h2>Hospedagem de vídeo externa</h2>
+    <iframe width="310" height="315" src="https://www.youtube.com/embed/Ru3_t7AiSwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h2>Audios</h2>
+    <audio>
+        <source src="audios/Malkauns - Aditya Verma.mp3" type="audio/mpeg">
+        <source src="audios/Malkauns - Aditya Verma.mp3" type="audio/ogg">
+        <source src="audios/Malkauns - Aditya Verma.mp3" type="audio/wav">
+        <p>Não foi possível reproduzir em seu navegador <a href="audios/Malkauns - Aditya Verma.mp3">baixe</a></p>
+    </audio>
+    <a href="https://go.hotmart.com/E54143316G" rel="nofollow">
+        <img src="https://i.ibb.co/TPKNK4g/250x250.png" border="0" width="250" height="250" />
+        </a>
+        
+</body>
+</html>

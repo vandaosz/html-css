@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@font-face {
+    font-family: sweet;
+    src: url(fontes/Sweet\ Romance.ttf) format(truetype);
+}
+h1{
+    font-family: sweet;
+}
+div > p{
+    display: none;
+}
+div:hover{
+    color: rgb(197, 130, 130);
+}
+div:hover > p{
+    display: block;
+    color: red;
+}
+h1::before{
+    content:U+1FAE8;
+}
+#side_bar{
+    list-style-position: inside;
+}
