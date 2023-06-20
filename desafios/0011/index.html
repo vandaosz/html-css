@@ -10,24 +10,30 @@
             padding: 0px;
             margin: 0px;
         }
-       body img{
-        width: 100%;
-        max-width: 100%;
-        min-width: 483px;
-        min-height: 695px;
-        max-height: 693px;
-        display: block;
-        margin: auto;
-       }
-       .astronauta{
-        display: block;
-        margin: auto;
-        
-       }
+        #container{
+            height: 100vh;
+            background-position:center center;
+            background-size: cover;
+            background-image: url(fotos/espaco.jpg);
+            position: relative;
+        }
+        #content{
+            background-image: url(fotos/astronauta.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 400px;
+            width: 400px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%,-50%);
+        }
     </style>
 </head>
 <body>
-    <img src="fotos/espacocortado.jpg" alt="espaço">
-    <img src="fotos/astronauta.png" alt="astronauta" id="astronauta">
+   <section id="container">
+    <article id="content"></article>
+   </section>
 </body>
 </html>
