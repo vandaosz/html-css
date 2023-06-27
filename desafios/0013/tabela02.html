@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYle>
+        table{
+            border-collapse: collapse;
+            width: 300px;
+            height: 300px;
+        }
+        td:nth-child(2n){
+            background-color: lightgrey;
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+        }
+    </STYle>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+        <tr>
+            <TD rowspan="4">C</TD>
+            <TD>D</TD>
+            <TD>E</TD>
+            <TD>F</TD>
+        </tr>
+        <tr>
+            <TD>G</TD>
+            <TD>H</TD>
+            <TD>I</TD>
+        </tr>
+        <tr>
+            <TD>J</TD>
+            <TD>L</TD>
+            <TD>M</TD>
+        </tr>
+        <tr>
+            <TD colspan="4">N</TD>
+        </tr>
+    </table>
+</body>
+</html>
